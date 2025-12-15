@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Manrope", sans-serif;
+  cursor: none;
+}
+
+/* 🎨 Custom Tailwind Theme Variables */
+@theme {
+  --color-primary: #5044E5; /* ← yahan space hatao warna error milega */
+  --color-dark: #000000;
+}
+
+/* 🌙 Global Dark Mode Styles */
+@layer base {
+  :root {
+    --dark-mode: #09072b;
+  }
+
+  .dark body {
+    background: var(--dark-mode);
+    transition: background 0.5s ease;
+  }
+}
