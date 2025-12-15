@@ -1,16 +1,33 @@
-# React + Vite
+# AI Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **AI Agency Website** is a modern, responsive landing page built to showcase AI-powered services with a clean, professional, and engaging user experience. The project emphasizes **UI/UX quality** and **smooth animations** using **Framer Motion**.
 
-Currently, two official plugins are available:
+## Demo
+- **Live Demo:** https://agency-ai-anas.netlify.app  
+- **Source Code:** [Insert GitHub Link]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- 📱 Fully responsive landing page design  
+- 🎨 Smooth page transitions and scroll-based animations using Framer Motion  
+- 🗂️ Structured sections for services, about, and contact  
+- 🧩 Clean layout with strong visual hierarchy  
+- ⚡ Optimized performance across all screen sizes
 
-## React Compiler
+## Technology Stack
+- **React.js** — Component-based frontend development  
+- **Tailwind CSS** — Responsive and scalable styling  
+- **Framer Motion** — Smooth animations and transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Learnings
+- Implementing motion-based UI using Framer Motion  
+- Enhancing user experience through structured UI/UX design  
+- Building clean, reusable, and scalable React components  
+- Designing professional landing pages aligned with real-world requirements  
 
-## Expanding the ESLint configuration
+## About the Project
+Over the past few months, I have been learning and building projects in **React.js** using **Tailwind CSS**, focusing on modern frontend development practices. This project reflects my journey to create **professional, interactive, and visually appealing web applications**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+1. Clone the repository:  
+```bash
+git clone [Repository Link]
